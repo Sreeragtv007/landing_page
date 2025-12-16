@@ -4,32 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>BigTV Malayalam</title>
+    <title>BigTV Malayalam | Contact</title>
 
+    <!-- SEO -->
     <meta name="description" content="Contact BigTV Malayalam for digital media updates, promotions, and enquiries. Email us for quick response.">
-    <meta name="keywords" content="BigTV Malayalam, contact BigTV Malayalam, digital media updates, Malayalam digital media">
+    <meta name="keywords" content="BigTV Malayalam, Malayalam digital media, contact BigTV Malayalam">
     <meta name="author" content="BigTV Malayalam">
     <meta name="robots" content="index, follow">
 
     <!-- Open Graph -->
-    <meta property="og:title" content="Contact BigTV Malayalam">
+    <meta property="og:title" content="BigTV Malayalam | Contact">
     <meta property="og:description" content="Get in touch with BigTV Malayalam for digital media updates and enquiries.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://yourdomain.com">
+
+    <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-81DE5HGHDR"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-81DE5HGHDR');
-</script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-81DE5HGHDR');
+    </script>
 
     <style>
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            font-family: "Segoe UI", Arial, sans-serif;
+            font-family: "Segoe UI", system-ui, Arial, sans-serif;
         }
 
         body {
@@ -37,36 +40,65 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            background: #f4f6f8;
+            background: linear-gradient(-45deg, #eef2ff, #f8fafc, #e0e7ff, #f1f5f9);
+            background-size: 400% 400%;
+            animation: gradientMove 12s ease infinite;
             color: #333;
+        }
+
+        @keyframes gradientMove {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
         }
 
         main {
             background: #ffffff;
-            padding: 32px;
-            border-radius: 14px;
+            padding: 34px;
+            border-radius: 18px;
             max-width: 420px;
-            width: 90%;
+            width: 92%;
             text-align: center;
-            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
+            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.12);
+            animation: fadeUp 0.8s ease;
+        }
+
+        @keyframes fadeUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
         }
 
         h1 {
             font-size: 26px;
-            margin-bottom: 8px;
+            margin-bottom: 6px;
+            color: #1f2937;
         }
 
         h2 {
-            font-size: 18px;
-            margin-bottom: 12px;
+            font-size: 16px;
+            margin-bottom: 18px;
             font-weight: normal;
-            color: #555;
+            color: #6b7280;
+        }
+
+        p {
+            font-size: 15px;
+            line-height: 1.6;
         }
 
         a {
+            display: inline-block;
+            margin-top: 10px;
             color: #2563eb;
             text-decoration: none;
             font-weight: 600;
+            word-break: break-word;
         }
 
         a:hover {
@@ -74,18 +106,22 @@
         }
 
         footer {
-            margin-top: 20px;
+            margin-top: 22px;
             font-size: 13px;
-            color: #777;
+            color: #9ca3af;
         }
     </style>
 </head>
 <body>
 
     <main>
-       
+        
 
-        <p>This website is not affiliated with any company or brand.
+        <p>
+            This website is not affiliated with any company or brand.
+            <br>
+            For enquiries, contact us at
+            <br>
             <a href="mailto:digitalmediaupdates007@gmail.com">
                 digitalmediaupdates007@gmail.com
             </a>
@@ -98,5 +134,3 @@
 
 </body>
 </html>
-
-
